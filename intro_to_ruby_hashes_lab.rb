@@ -12,11 +12,8 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-	monopoly = {:railroads => {
-    pieces: {"4"},
-    symbol: {{}},
-    rent_in_dollars: {{}}
-    }
+	monopoly = {
+    railroads: {pieces: "4", names: Hash.new, rent_in_dollars: Hash.new}
   }
 
 
