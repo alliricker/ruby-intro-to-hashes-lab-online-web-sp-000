@@ -7,12 +7,13 @@ actor_name = {name: "Dwayne The Rock Johnson"}
 end
 
 def monopoly
-	monopoly = {railroads: names = {}}
+	monopoly = {railroads: {}}
 
 end
 
 def monopoly_with_second_tier
-	railroads = {pieces: "4", names: {}, rent_in_dollars:{}}
+	monopoly = {railroads:
+  }
 
 
 end
